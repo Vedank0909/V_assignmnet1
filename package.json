@@ -22,5 +22,7 @@
   "homepage": "https://github.com/Vedank0909/V_assignmnet1#readme",
   "dependencies": {
     "connect": "^3.5.0"
-  }
+  },"engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
 }
