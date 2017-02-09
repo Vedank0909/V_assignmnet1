@@ -1,0 +1,26 @@
+{
+  "name": "assignment1_300860092",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Vedank Patel"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "homepage": "https://github.com/Vedank0909/V_assignmnet1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/Scripts/lib"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4"
+  }
+}
