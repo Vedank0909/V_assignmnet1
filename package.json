@@ -1,0 +1,26 @@
+{
+  "name": "assignmnet1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vedank0909/V_assignmnet1.git"
+  },
+  "keywords": [
+    "connect"
+  ],
+  "author": "vedank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vedank0909/V_assignmnet1/issues"
+  },
+  "homepage": "https://github.com/Vedank0909/V_assignmnet1#readme",
+  "dependencies": {
+    "connect": "^3.5.0"
+  }
+}
