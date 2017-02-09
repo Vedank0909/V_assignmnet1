@@ -1,31 +1,29 @@
-
 let express = require('express');
 let app = express();
 
-// assigned a port to a constant
+// create the port constant
 const localport = 3000;
 
-// setup the event loop - listens on port 3000
-let port = process.env.PORT|| localport;
-app.set('port',port);
-app.listen('port',port);
-//console.log(`Server listening at port: ${port}`);
+/**
+ * Get port from environment and store in Express.
+ */
+let port = process.env.PORT || localport;
+app.set('port', port);
 
-// mounted two routes on the server
+// start listening on the port
+app.listen(port);
+console.log(`Server started at http://localhost:${port}`);
 
-// hello route
+// ROUTING - mounted our routes
+
+// second route is '/hello'
 app.use('/hello', (req, res, next) => {
-    
-    res.end("hello");
-  next();
+  res.send("Hello World!")
 });
 
-// main route for the root of my website
+// first route is '/' - root of my website
 app.use('/', (req, res, next) => {
-    
-    res.send("Welcome!");
-  next();
+  res.send("Welcome!");
 });
+
 module.exports = app;
-
-
