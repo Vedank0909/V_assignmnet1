@@ -5,7 +5,7 @@ websitename:https://assignmen.herokuapp.com/
 File Description:file that routes content pages 
 */
 let express = require('express');
-
+let router = express.Router();
 router.get('/', (req, res, next) => {
   res.render('content/index', {
     title: 'Home'
