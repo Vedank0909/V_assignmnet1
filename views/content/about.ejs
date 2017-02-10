@@ -1,14 +1,33 @@
-<% include header.ejs %>
+<!
+Filename:about.ejs
+Authorname:Vedank Patel
+websitename:https://assignmen.herokuapp.com/
+File Description:contains about me information 
+-->
+<% include ../partials/header.ejs %>
 
-    <!-- MAIN CONTENT -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-          <h1><%= title %></h1>
-          <p>About Me</p>
-
-        </div>
-      </div>
+  <div class="container-fluid bg-1 text-center">
+  <h3 class="margin">About Me</h3>
+  <img src="Assets/images/me.jpg" class="img-responsive img-square margin" style="display:inline" alt="Bird" width="200" height="200">  
+  <hr class="w3-border-grey" style="margin:auto;width:76%">
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Education</h3>
+      <p>Bachelor's of Technology in Computer Engineering<p>
+      <p>Advanced Diploma in Software Engineering Technology<p>
     </div>
+    <div class="col-sm-4">
+      <h3>Skills</h3>
+      <p>Java, C, C++, c#, ADO.Net, HTML, Javascript</p>
+      <p>Android Programming, php, mysql and object oriented programming</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Hobies</h3> 
+      <p>Photography, books, movies</p>
+      <p>travel, table tennis, cricket</p>
+    </div>
+  </div>
+</div>
 
-<% include footer.ejs %>
+<% include ../partials/footer.ejs %>

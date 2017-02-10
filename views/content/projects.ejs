@@ -1,13 +1,31 @@
-<% include header.ejs %>
+<! 
+Filename:project.ejs
+Authorname:Vedank Patel
+websitename:https://assignmen.herokuapp.com/
+File Description: project information
+-->
+<% include ../partials/header.ejs %>
 
-    <!-- MAIN CONTENT -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-          <h1><%= title %></h1>
-          <p>My Projects</p>
-        </div>
-      </div>
+   <div class="container-fluid bg-1 text-center">    
+  <h3 class="margin">My Project</h3>
+  <h4 class="margin">Complain registration Android Application</h4><br>
+ 
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <p>First select pic from gallery or click picture from camera. The application will automatically find the location of event from picture</p>
+      <img src="Assets/images/1.png" class="img-responsive margin" style="display:inline" alt="Bird" width="150" height="200" alt="Image">
     </div>
+    <div class="col-sm-4"> 
+    <p></p>
+    <p></p>
+      <p>Enter Complain details whick will be sent to concerned department</p>
+      <img src="Assets/images/2.png" class="img-responsive margin" style="display:inline" alt="Bird" width="150" height="200" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Select the concerned Department and sent the complain via E-mail or upload the to the department;s database</p>
+      <img src="Assets/images/3.png" class="img-responsive margin" style="display:inline" alt="Bird" width="150" height="200" alt="Image">
+    </div>
+  </div>
 
-<% include footer.ejs %>
+<% include ../partials/footer.ejs %>

@@ -1,7 +1,10 @@
+/* 
+Filename:index.js
+Authorname:Vedank Patel
+websitename:https://assignmen.herokuapp.com/
+File Description:file that routes content pages 
+*/
 let express = require('express');
-let router = express.Router();
-//let mongoose = require('mongoose');
-//let game = require('../config/game');
 
 router.get('/', (req, res, next) => {
   res.render('content/index', {
